@@ -12,7 +12,7 @@ public class DestroyOnCollision : MonoBehaviour
     public GameObject Mesh3;
     public Rigidbody rb;
     public Collider bc;
-    Animator animator;
+    public Animator animator;
 
     void Start()
     {
@@ -28,7 +28,6 @@ public class DestroyOnCollision : MonoBehaviour
             rb = GetComponent<Rigidbody>();
             rb.velocity = new Vector3(0, 0, 0); //sets jellyfish velocity to 0 as precaution
             animator.SetBool("IsDead", true);
-            StartCoroutine(DeathDelay());
             rend = Mesh0.GetComponent<SkinnedMeshRenderer>();
             rend.enabled = false;
             rend = Mesh1.GetComponent<SkinnedMeshRenderer>();
@@ -42,11 +41,6 @@ public class DestroyOnCollision : MonoBehaviour
             Debug.Log("Cube zerstört durch Kollision mit dem Zylinder. Du hast verloren.");
             Death = true;
         }
-    }
-    IEnumerator DeathDelay()
-    {
-        
-        yield return new WaitForSeconds(20);
     }
 }
 

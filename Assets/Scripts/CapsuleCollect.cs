@@ -5,6 +5,11 @@ using UnityEngine;
 public class CubeCollector : MonoBehaviour
 {
     public int Score;
+    public ParticleSystem pickup;
+    void Start ()
+    {
+        pickup = GetComponent<ParticleSystem>();
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Capsule")) // Überprüfe, ob das kollidierte Objekt ein "Capsule"-Tag hat
@@ -12,6 +17,7 @@ public class CubeCollector : MonoBehaviour
             Destroy(other.gameObject); // Zerstöre die Kapsel
             Debug.Log("Capsule aufgesammelt!");
             Score++;
+            pickup.Play();
         }
     }
 }
