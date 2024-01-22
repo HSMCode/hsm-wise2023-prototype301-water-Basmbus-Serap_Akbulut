@@ -1,7 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/X0ei8bI6)
 # Project Title
 
-One Paragraph of project description goes here.
+A Little Octopus Which Is Opssesed with Bubbles Starts To Collect them Until He finds His Tressuar
+
 
 ## Summary
 
@@ -25,7 +26,7 @@ for notes on how to deploy the project on a live system.
 
 What things you need to install the software and how to install them
 
-    Give examples
+    Unity and Visual Studio Code
 
 ### Installing
 
@@ -85,7 +86,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
   - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
-
+Answers by Serap Akbulut
 See also the list of
 [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
 who participated in this project.
@@ -95,9 +96,12 @@ who participated in this project.
 This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
 Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
 details
+Asset Linda (Occtupus)
+Asset EK Studio (Tressure Box)
+Asset BlankfaceStanislav (Trash)
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code was used
-  - Inspiration
-  - etc
+ Lead by Professor Linda Kruse
+ Devolper Serap Akbulut, Anton Hentzler, Tobias Wittkugel
+ Background by Serap Akbulut 
